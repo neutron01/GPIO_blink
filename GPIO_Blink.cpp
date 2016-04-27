@@ -40,7 +40,7 @@ int main(int argc, _TCHAR* argv[])
 
 	// Disable gpio
 	DlnGpioPinDisable(device, 0);
-	DlnGpioPinDisable(device, 0);
+	DlnGpioPinDisable(device, 8);
 	// Close device
 	DlnCloseHandle(device);
 	return 0;
